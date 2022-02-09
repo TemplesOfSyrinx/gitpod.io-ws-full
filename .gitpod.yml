@@ -1,4 +1,5 @@
-image: gitpod/workspace-full
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
   - init: echo 'init script' # runs during prebuild
@@ -7,3 +8,4 @@ tasks:
 vscode:
   extensions:
     - GitHub.vscode-pull-request-github
+    - ms-azuretools.vscode-docker
